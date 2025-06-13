@@ -1,0 +1,92 @@
+{
+  "responses": {
+    "ahoj": {
+      "cs": ["Ahoj! Jak se máš?", "Čau! Co tě dnes trápí?"],
+      "en": ["Hello! How are you?", "Hi! What's on your mind today?"]
+    },
+    "jak_se_mas": {
+      "cs": ["Mám se skvěle, díky, že se ptáš! A ty?", "Jsem v pohodě, co ty?"],
+      "en": ["I'm great, thanks for asking! And you?", "I'm fine, how about you?"]
+    },
+    "emoce_negative": {
+      "cs": ["To mě mrzí, co se stalo? Řekni mi víc.", "Hej, to zní těžce. Chceš o tom mluvit?"],
+      "en": ["I'm sorry to hear that, what happened? Tell me more.", "Hey, that sounds tough. Want to talk about it?"]
+    },
+    "emoce_positive": {
+      "cs": ["To je super! Jak to? Řekni mi víc.", "Hej, to je boží. Super, chceš o tom mluvit?"],
+      "en": ["That's great! How so? Tell me more.", "Hey, that's awesome. Super, want to talk about it?"]
+    },
+    "default": {
+      "cs": ["Tohle neznám, nechceš vědět předpověď?", "Hmm, to je nové. Co spíš nějaký vtip?", "Jej...teď se nechytám, nechceš vědět co umím?"],
+      "en": ["That's interesting! What's next?", "Hmm, that's new. What would you like to know?"]
+    },
+    "vtip": {
+      "cs": ["Proč má programátor rád temnou místnost? Protože tam svítí debuggery!", "Frodo selhal. Gollum uklouzl. A svět byl zachráněn...náhodou", "Brumbálův plán? Dát dítěti sebevražednou misi a doufat, že přežije...láskou", "Co řekl pes programátorovi? Woof-woof-cyklus!", "Život je jako program napsaný bez testování. Všechno se zdá fajn...dokud to nespustíš"],
+      "en": ["Why does a programmer like a dark room? Because the debuggers light it up!", "What did the dog programmer say? Woof-woof-loop!"]
+    },
+    "cas": {
+      "cs": ["Teď je {hodiny} hodin.", "Podívej, je {hodiny}!"],
+      "en": ["It's {hodiny} now.", "Look, it's {hodiny}!"]
+    },
+    "history": {
+      "cs": ["Poslední požadavky na počasí: {history}", "Historie: {history}"],
+      "en": ["Latest weather requests: {history}", "History: {history}"]
+    }
+  },
+  "weather_descriptions": {
+    "cs": {
+      "clear sky": "jasno",
+      "few clouds": "skoro jasno",
+      "scattered clouds": "polojasno",
+      "broken clouds": "zataženo",
+      "overcast clouds": "úplně zataženo",
+      "light rain": "lehké mrholení",
+      "moderate rain": "mírný déšť",
+      "heavy intensity rain": "silný déšť",
+      "thunderstorm": "bouřka",
+      "snow": "sníh",
+      "mist": "mlha",
+      "fog": "mlha"
+    },
+    "en": {
+      "clear sky": "clear sky",
+      "few clouds": "few clouds",
+      "scattered clouds": "scattered clouds",
+      "broken clouds": "broken clouds",
+      "overcast clouds": "overcast clouds",
+      "light rain": "light rain",
+      "moderate rain": "moderate rain",
+      "heavy intensity rain": "heavy rain",
+      "thunderstorm": "thunderstorm",
+      "snow": "snow",
+      "mist": "mist",
+      "fog": "fog"
+    }
+  },
+  "intros": {
+    "cs": [
+      "Hej, v {city} je teď {temp}°C a {description}.",
+      "Podíval jsem se ven – v {city} je {temp}°C a {description}.",
+      "Počasí hlásí, že v {city} je teď {temp}°C a {description}."
+    ],
+    "en": [
+      "Hey, it's {temp}°C in {city} with {description}.",
+      "I looked outside – {temp}°C and {description} in {city}.",
+      "Weather reports {temp}°C and {description} in {city} now."
+    ]
+  },
+  "follow_ups": {
+    "cs": {
+      "sunny": ["Pěkný den na procházku, co myslíš?", "Nechceš vyrazit na zmrzku?", "Ideální počasí na kolo, jedeš?"],
+      "rainy": ["Možná bys měl/a vzít deštník, co plánuješ dělat?", "Ideální na čaj a knihu, co říkáš?", "Zůstaneš radši doma, nebo máš nějaký plán?"],
+      "cloudy": ["Ideální na koukání na film, máš nějaký oblíbený?", "Trochu šedý den, co tě dnes rozveselí?", "Co takhle si udělat pohodový den uvnitř?"],
+      "other": ["Jaké máš plány na dnešek?", "Co tě dnes čeká za dobrodružství?", "Máš nějaký tip, co dělat v takovém počasí?"]
+    },
+    "en": {
+      "sunny": ["Nice day for a walk, what do you think?", "Want to grab an ice cream?", "Perfect weather for a bike ride, going?"],
+      "rainy": ["Maybe take an umbrella, what are you planning?", "Perfect for tea and a book, what do you say?", "Staying home, or do you have a plan?"],
+      "cloudy": ["Perfect for watching a movie, got a favorite?", "A bit gray today, what will cheer you up?", "How about a cozy day inside?"],
+      "other": ["What are your plans for today?", "What adventures await you today?", "Any tips for this kind of weather?"]
+    }
+  }
+}

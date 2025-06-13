@@ -1,0 +1,11 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="12" cy="12" r="6" fill="#FFD700" />
+  <circle cx="12" cy="12" r="8" fill="none" stroke="#FFD700" stroke-width="2" stroke-opacity="0.5" />
+  <path d="M8 14 Q10 16 12 14 T16 14" stroke="#FFD700" stroke-width="1" stroke-opacity="0.6" fill="none">
+    <animate attributeName="d" values="M8 14 Q10 16 12 14 T16 14; M8 14 Q10 15 12 14 T16 14; M8 14 Q10 16 12 14 T16 14" dur="1s" repeatCount="indefinite" />
+  </path>
+  <path d="M8 12 Q10 14 12 12 T16 12" stroke="#FFD700" stroke-width="1" stroke-opacity="0.6" fill="none">
+    <animate attributeName="d" values="M8 12 Q10 14 12 12 T16 12; M8 12 Q10 13 12 12 T16 12; M8 12 Q10 14 12 12 T16 12" dur="1s" repeatCount="indefinite" />
+  </path>
+  <animate attributeName="r" from="6" to="7" dur="1s" repeatCount="indefinite" />
+</svg>
