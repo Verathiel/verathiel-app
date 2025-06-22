@@ -28,6 +28,8 @@ Verzování a spolupráce: Použití Git a GitHub pro správu kódu a přípravu
 Plánování a organizace: Strukturované přístupy k vývoji projektu, včetně rozdělení na moduly (např. src/database.py, src/weather.py).
 Práce s daty: Manipulace s JSON a textovými daty pro jazykové překlady a ukládání uživatelských preferencí.
 
+REPLIT:https://replit.com/@veronikaflachso/verathiel-app
+
 Instalace
 
 Chceš projekt vyzkoušet lokálně? Postup je jednoduchý:
